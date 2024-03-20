@@ -70,4 +70,14 @@ class HomePage extends StatelessWidget {
             ),     
             const Icon(Icons.favorite, size: 50.0, color: Color.fromARGB(255, 244, 54, 98)),
 
+            const SizedBox(height: 20.0),
+            const Text(
+              '6. ElevatedButton:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('ElevatedButton'),
+            ),
+
             
