@@ -80,4 +80,24 @@ class HomePage extends StatelessWidget {
               child: const Text('ElevatedButton'),
             ),
 
+            const SizedBox(height: 20.0),
+            const Text(
+              '7. Stack:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Stack(
+              children: [
+                Container(
+                  width: 200.0,
+                  height: 200.0,
+                  color: const Color.fromARGB(255, 243, 33, 240),
+                ),
+                Container(
+                  width: 150.0,
+                  height: 150.0,
+                  color: const Color.fromARGB(255, 54, 165, 244),
+                ),
+              ],
+            ),
+
             
